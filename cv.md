@@ -1,1 +1,3 @@
- name: Maria Nerobelova
+ Maria Nerobelova
+ @marianerobelova
+ Junior JavaScript developer
