@@ -1,1 +1,268 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <img src="./assets/svg/toggle.svg" alt="menu" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container main-container">
+        <section class="section section-profile" id="profile">
+          <img
+            src="./assets/avatar.jpg"
+            alt="profile photo"
+            class="section-profile-logo"
+          />
+          <h1 class="section-profile-title">Maria Nerobelova</h1>
+          <p>Junior front-end developer</p>
+          <p>St.Petersburg, Russia</p>
+        </section>
+        <section class="section" id="contacts">
+          <div class="section-left">
+            <h2 class="section-title">Contacts</h2>
+            <h3 class="section-subtitle">Let's keep in touch</h3>
+          </div>
+          <div class="section-right">
+            <ul class="section-list">
+              <li class="section-item contacts-item">
+                Email:
+                <a href="mailto:marianerobelova@gmail.com" title="Email"
+                  >marianerobelova@gmail.com</a
+                >
+              </li>
+              <li class="section-item contacts-item">
+                Github:
+                <a href="https://github.com/marianerobelova" title="Github"
+                  >marianerobelova</a
+                >
+              </li>
+              <li class="section-item contacts-item">
+                Telegram:
+                <a href="https://t.me/marianerobelova" title="Telegram"
+                  >@marianerobelova</a
+                >
+              </li>
+              <li class="section-item contacts-item">
+                Discord:
+                <a href="https://discord.com/channels/@me" title="Discord"
+                  >marianerobelova#3401</a
+                >
+              </li>
+              <li class="section-item contacts-item">
+                LinkedIn:
+                <a
+                  href="https://www.linkedin.com/in/marianerobelova/"
+                  title="LinkedIn"
+                  >marianerobelova</a
+                >
+              </li>
+              <li class="section-item contacts-item">
+                Codewars:
+                <a
+                  href="https://www.codewars.com/users/marianerobelova"
+                  title="Codewars"
+                  >marianerobelova</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="summary">
+          <div class="section-left">
+            <h2 class="section-title">Summary</h2>
+            <h3 class="section-subtitle">To cut a long story short</h3>
+          </div>
+          <div class="section-right">
+            <p>
+              Highly interested Front-End development and skilled in IT
+              recruitment. Person with strong knowledge of office
+              administration, excellent organizational skills, analytical
+              thinking, computer proficiency and communication abilities.
+            </p>
+          </div>
+        </section>
+        <section class="section" id="skills">
+          <div class="section-left">
+            <h2 class="section-title">Skills</h2>
+            <h3 class="section-subtitle">Just a small part of a list</h3>
+          </div>
+          <div class="section-right">
+            <ul class="section-list">
+              <li class="section-item">HTML5</li>
+              <li class="section-item">CSS3</li>
+              <li class="section-item">JavaScript</li>
+              <li class="section-item">React</li>
+              <li class="section-item">GIT</li>
+              <li class="section-item">Adobe Illustrator</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="code">
+          <div class="section-left">
+            <h2 class="section-title">Code</h2>
+            <h3 class="section-subtitle">
+              An example of my solution on codewars.com
+            </h3>
+          </div>
+          <div class="code-container section-right">
+            <pre class="pre"><code class="code">function highAndLow(numbers){
+            const numbersArray = numbers.split(' ');
+            const sortedArray = numbersArray.sort((a, b) => {
+               return b - a;
+            });
+            return `${sortedArray[0]} ${sortedArray[sortedArray.length - 1]}`;
+           }
+         }</code></pre>
+          </div>
+        </section>
+        <section class="section" id="courses">
+          <div class="section-left">
+            <h2 class="section-title">Courses</h2>
+            <h3 class="section-subtitle">Lazy isn't in my vocabulary</h3>
+          </div>
+          <div class="section-right">
+            <ul class="section-list">
+              <li class="section-item">
+                Frontend developer, <span>Vladilen Minin</span>
+              </li>
+              <li class="section-item">IT Recruiter, <span>LABA</span></li>
+              <li class="section-item">
+                60-hour-language-course in Spanish,
+                <span>University of Valencia</span>
+              </li>
+              <li class="section-item">
+                Secretarial and office management,
+                <span>Inter-school study centre, Ivanovo</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="projects">
+          <div class="section-left">
+            <h2 class="section-title">Projects</h2>
+            <h3 class="section-subtitle">The one and only</h3>
+          </div>
+          <div class="section-right">
+            <ul class="section-list">
+              <li class="section-item">
+                <a href="https://marianerobelova.github.io/rsschool-cv/"
+                  >My first CV project on Github</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="education">
+          <div class="section-left">
+            <h2 class="section-title">Education</h2>
+            <h3 class="section-subtitle">Wonderful time</h3>
+          </div>
+          <div class="section-right">
+            <p>
+              The Russian Presidential academy of national economy and public
+              administration
+            </p>
+            <ul class="section-list">
+              <li class="section-item">
+                Bachelor of public administration and civil service
+              </li>
+              <li class="section-item">Graduated with honors</li>
+              <li class="section-item">
+                Winner, 2019, All-Russian essay contest "Growth point" of the
+                Federal Antimonopoly Service
+              </li>
+              <li class="section-item">
+                Winner, 2018, Russia-UK student economic forum
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section" id="languages">
+          <div class="section-left">
+            <h2 class="section-title">Languages</h2>
+            <h3 class="section-subtitle">¡Hola a todos!</h3>
+          </div>
+          <div class="section-right">
+            <ul class="section-list">
+              <li class="section-item">Russian - <span>native</span></li>
+              <li class="section-item">English - <span>intermediate</span></li>
+              <li class="section-item">
+                Spanish - <span>pre-intermediate</span>
+              </li>
+              <li class="section-item">German - <span>elementary</span></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+    <button onclick="topFunction()" class="button-go-to-top" title="Go to top">
+      top
+    </button>
+    <footer>
+      <div class="container footer-container">
+        <div class="footer-item">2022</div>
+        <div class="footer-item">
+          <a href="https://github.com/marianerobelova" class="github nav-link"
+            >marianerobelova</a
+          >
+        </div>
+        <div class="footer-item">
+          <a href="https://rs.school/js/" class="rss-link">
+            <img
+              src="./assets/svg/rs_school_js.svg"
+              alt="RS"
+              class="rss-logo"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
