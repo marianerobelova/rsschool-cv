@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
 }
 
-.header {
+header {
   background-color: #b2a2d2;
 }
 
@@ -179,8 +179,11 @@ span {
   background-color: #555;
 }
 
-.footer-container {
+footer {
   background-color: #b2a2d2;
+}
+
+.footer-container {
   color: #392245;
   display: flex;
   justify-content: space-around;
