@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
 }
 
-.header-container {
+.header {
   background-color: #b2a2d2;
 }
 
@@ -185,6 +185,21 @@ span {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.location {
+  position: relative;
+}
+
+.location::before {
+  content: "";
+  position: absolute;
+  right: 200px;
+  width: 30px;
+  height: 30px;
+  background-image: url(./assets/svg/location.svg);
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
 }
 
 .footer-item {
