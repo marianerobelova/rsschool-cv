@@ -1,29 +1,21 @@
 # Maria Nerobelova
 
-![maria nerobelova](https://user-images.githubusercontent.com/119874475/223366508-d763aafa-9510-4d5e-bac9-6fbf70f20d76.jpg)
+![maria nerobelova](https://user-images.githubusercontent.com/119874475/223378430-c02644f5-3fbe-44fb-81bc-2e4066ad1d47.jpg)
 
 *********** 
 
 ## Contacts
  
- * *Telegram:* marianerobelova
- * *Discord:* marianerobelova#3401
- * *e-mail:* marianerobelova@gmail.com
- * *Codewars:* [marianerobelova][ https://www.codewars.com/users/marianerobelova ]
- * *LinkedIn:* [marianerobelova][https://www.linkedin.com/in/marianerobelova/]
+ * **Telegram:** marianerobelova
+ * **Discord:** marianerobelova#3401
+ * **e-mail:** marianerobelova@gmail.com
+ * **Codewars:** [marianerobelova](https://www.codewars.com/users/marianerobelova)
+ * **LinkedIn:** [marianerobelova](https://www.linkedin.com/in/marianerobelova/)
  
 ***********
  
-## About me
-As an organised and highly service driven individual, I love to deliver first class results within dynamic and fast paced working environments. 
-Customer-oriented demeanor and excellent communication skills help me to come to an understanding with anybody.
-I am a team-player. Highly creative and passionate. Well-organized and self-motivated person, able to work on own initiative. Open to change, fast-learner and absolutely optimistic. 
-
-***********
-
-## Work experience:
- * IT recruiter
- * Office Administrator
+## Summary
+Highly interested Front-End development and skilled in IT recruitment. Person with strong knowledge of office administration, excellent organizational skills, analytical thinking, computer proficiency and communication abilities. 
  
 *********** 
 
@@ -42,21 +34,58 @@ My first project: https://github.com/marianerobelova/rsschool-cv/edit/gh-pages/c
 ***********
 
 ## Code
+My Codewars solution
+*Kata: Given the angle (in degrees) of the hour-hand, return the time in 12 hour HH:MM format*
 
-Codewars profile: .
+```
+const whatTimeIsIt = function(angle) {
+
+  const addZero = function(n) {
+    if (n < 10) {
+      return '0' + n;
+    } else {return +n};
+  };
+  
+  let hours = addZero(Math.floor(angle / 30));
+  if (angle < 30) {
+    hours = '12';
+  };
+  
+  let minutes = addZero(Math.floor((angle % 30) * 2));
+  
+  return `${hours}:${minutes}`;
+}
+```
+
  
 ***********
 
 ## Educational background:
-- JS pre-school, RS school
-- JavaScript - FrontEnd developer, Vladilen Minin
-- IT Recruiter course, LABA
-- Bachelor of public administration and civil service, RANEPA
-- 60-hour-language-course in Spanish, University of Valencia
+
+The Russian Presidential academy of national economy and public administration
+
+* Bachelor of public administration and civil service
+* Graduated with honors
+* Winner, 2019, All-Russian essay contest "Growth point" of the Federal Antimonopoly Service
+* Winner, 2018, Russia-UK student economic forum
+
+## Courses
+
+* **JS pre-school** - RS school
+<img width="250" alt="Снимок экрана 2023-03-07 в 12 13 50 (1)" src="https://user-images.githubusercontent.com/119874475/223378261-e4da86af-b8e1-4c79-8aa3-b44e54df51fb.png">
+
+
+[DIGITAL VERSION](https://app.rs.school/certificate/fqky6sib)
+
+* **JavaScript - FrontEnd developer** - Vladilen Minin
+* **IT Recruiter course** - LABA
+* **60-hour-language-course in Spanish** - University of Valencia
 
 ***********
 
 ## Languages
 
-English - B2, 
-I'm a winner of Russia-UK student economic forum, 2 weeks internship  in the University of Glasgow, Scotland
+* **Russian** - native 
+* **English** - intermediate
+* **Spanish** - pre-itnermediate
+* **German** - elementary
