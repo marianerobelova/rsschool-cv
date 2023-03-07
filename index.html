@@ -146,20 +146,16 @@
             <p>Kata: Given the angle (in degrees) of the hour-hand, return the time in 12 hour HH:MM format</p>
             <pre class="pre"><code class="code">function highAndLow(numbers){
               const whatTimeIsIt = function(angle) {
-
                 const addZero = function(n) {
                   if (n &lt; 10) {
                     return '0' + n;
                   } else {return +n};
                 };
-                
                 let hours = addZero(Math.floor(angle / 30));
                 if (angle &lt; 30) {
                   hours = '12';
                 };
-                
                 let minutes = addZero(Math.floor((angle % 30) * 2));
-                
                 return `${hours}:${minutes}`;
               }</code></pre>
           </div>
