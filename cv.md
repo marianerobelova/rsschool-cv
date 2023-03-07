@@ -29,7 +29,19 @@ Highly interested Front-End development and skilled in IT recruitment. Person wi
 
 ## Projects
 
-My first project: https://github.com/marianerobelova/rsschool-cv/edit/gh-pages/cv.md
+* [My cv](https://marianerobelova.github.io/rsschool-cv/)
+
+<img width="154" alt="Снимок экрана 2023-03-07 в 12 32 38" src="https://user-images.githubusercontent.com/119874475/223382767-960ad5f3-5b69-478c-b364-330a26f1d8ed.png">
+
+
+* [Plants task from RSSchool #Stage0](https://rolling-scopes-school.github.io/marianerobelova-JSFEPRESCHOOL2022Q4/Plants/) 
+
+<img width="159" alt="Снимок экрана 2023-03-07 в 12 33 05" src="https://user-images.githubusercontent.com/119874475/223382796-43eaaf24-f1e5-4b13-98bb-dd1a1020b9ea.png">
+
+
+* [Momentum task from RSSchool #Stage0](https://rolling-scopes-school.github.io/marianerobelova-JSFEPRESCHOOL2022Q4/momentum/)
+
+<img width="178" alt="Снимок экрана 2023-03-07 в 12 33 50" src="https://user-images.githubusercontent.com/119874475/223382839-170ee608-904d-4e2f-bd66-f40b846b92b6.png">
 
 ***********
 
