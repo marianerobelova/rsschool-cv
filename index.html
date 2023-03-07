@@ -2,18 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/favicon.ico" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
   </head>
   <body>
     <header>
@@ -47,7 +46,7 @@
           </ul>
         </nav>
         <div class="toggle">
-          <img src="./assets/svg/toggle.svg" alt="menu" />
+          <img src="./assets/svg/toggle.svg" alt="menu">
         </div>
       </div>
     </header>
@@ -57,8 +56,7 @@
           <img
             src="./assets/avatar.jpg"
             alt="profile photo"
-            class="section-profile-logo"
-          />
+            class="section-profile-logo">
           <h1 class="section-profile-title">Maria Nerobelova</h1>
           <p>Junior front-end developer</p>
           <p class="location">St.Petersburg, Russia</p>
@@ -151,14 +149,25 @@
             </h3>
           </div>
           <div class="code-container section-right">
+            <p>Kata: Given the angle (in degrees) of the hour-hand, return the time in 12 hour HH:MM format</p>
             <pre class="pre"><code class="code">function highAndLow(numbers){
-            const numbersArray = numbers.split(' ');
-            const sortedArray = numbersArray.sort((a, b) => {
-               return b - a;
-            });
-            return `${sortedArray[0]} ${sortedArray[sortedArray.length - 1]}`;
-           }
-         }</code></pre>
+              const whatTimeIsIt = function(angle) {
+
+                const addZero = function(n) {
+                  if (n < 10) {
+                    return '0' + n;
+                  } else {return +n};
+                };
+                
+                let hours = addZero(Math.floor(angle / 30));
+                if (angle < 30) {
+                  hours = '12';
+                };
+                
+                let minutes = addZero(Math.floor((angle % 30) * 2));
+                
+                return `${hours}:${minutes}`;
+              }</code></pre>
           </div>
         </section>
         <section class="section" id="courses">
@@ -168,6 +177,9 @@
           </div>
           <div class="section-right">
             <ul class="section-list">
+              <li class="section-item">
+                JS pre-school, <span>RS school</span>
+              </li>
               <li class="section-item">
                 Frontend developer, <span>Vladilen Minin</span>
               </li>
@@ -186,14 +198,27 @@
         <section class="section" id="projects">
           <div class="section-left">
             <h2 class="section-title">Projects</h2>
-            <h3 class="section-subtitle">The one and only</h3>
+            <h3 class="section-subtitle">I do my best</h3>
           </div>
           <div class="section-right">
             <ul class="section-list">
-              <li class="section-item">
+              <li class="section-item projects">
                 <a href="https://marianerobelova.github.io/rsschool-cv/"
-                  >My first CV project on Github</a
+                  >My CV project</a
                 >
+                <img class="screen" src="/assets/cv screen.png" alt="screenshoot of cv project">
+              </li>
+              <li class="section-item projects">
+                <a href="https://rolling-scopes-school.github.io/marianerobelova-JSFEPRESCHOOL2022Q4/Plants/"
+                  >Plants task from RSSchool #Stage0</a
+                >
+                <img class="screen" src="/assets/plants screen.png" alt="screenshoot of plants project">
+              </li>
+              <li class="section-item projects">
+                <a href="https://rolling-scopes-school.github.io/marianerobelova-JSFEPRESCHOOL2022Q4/momentum/"
+                  >Momentum task from RSSchool #Stage0</a
+                >
+                <img class="screen" src="/assets/momentum screen.png" alt="screenshoot of momentum project">
               </li>
             </ul>
           </div>
@@ -241,7 +266,7 @@
         </section>
       </div>
     </main>
-    <button onclick="topFunction()" class="button-go-to-top" title="Go to top">
+    <button onclick="topFunction()" class="button-go-to-top" title="Go to top" type="button">
       top
     </button>
     <footer>
